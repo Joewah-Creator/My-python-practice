@@ -34,3 +34,15 @@ for number in numbers :
     total = total + number 
 
 print(total) #sum of all the numbers
+
+# while loop
+numbers = [2, 21, 9, 13, 18, 6]
+total = 0
+i = 0   # start with the first index
+
+# keep looping until i reaches the length of the list
+while i < len(numbers):
+    total = total + numbers[i]   # add the current element
+    i = i + 1                    # move to the next index
+
+print(total)  # final result
